@@ -6,6 +6,7 @@ const morgan = require("morgan");
 
 const authRoutes = require("./routes/authRoutes");
 const teslaRoutes = require("./routes/teslaRoutes");
+const rideRoutes = require("./routes/rideRoutes");
 const { errorHandler } = require("./middleware/errorHandler");
 
 function createApp() {
@@ -24,7 +25,7 @@ function createApp() {
 
   app.use("/api/auth", authRoutes);
   app.use("/api/teslas", teslaRoutes);
-
+  app.use("/api/rides", rideRoutes);
   app.use((req, res) => {
     res.status(404).json({ error: { message: "Route not found" } });
   });
