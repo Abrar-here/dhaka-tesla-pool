@@ -29,5 +29,11 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/tests/jest.setup.js"
+    ],
+    "testTimeout": 30000
   }
 }
