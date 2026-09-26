@@ -31,7 +31,14 @@ Ride-hailing in Dhaka is expensive and traffic-heavy when every passenger rides 
 
 ## Screenshots
 
-_(Add screenshots or a short GIF here of: the login page, the passenger dashboard with a pooled ride, and the driver dashboard mid-lifecycle.)_
+**Login**
+![Login page](docs/screenshots/login.png)
+
+**Passenger Dashboard — pooled ride with individual fare**
+![Passenger dashboard](docs/screenshots/passenger-dashboard.png)
+
+**Driver Dashboard — a 3-passenger pool sharing one Tesla, each with their own fare**
+![Driver dashboard pooled ride](docs/screenshots/driver-pooled-ride.png)
 
 ## Tech Stack
 
