@@ -24,6 +24,11 @@ Ride-hailing in Dhaka is expensive and traffic-heavy when every passenger rides 
 - **Seed script** — reproducible demo data using the story cast (Jashim/Bullet, Nusrat, Rafiq, Shirin)
 - **Automated tests** — 29 tests covering fare math, concurrency, state transitions, and auth
 
+## Live Demo
+
+- Frontend: https://dhaka-tesla-pool-kappa.vercel.app
+- Backend API: https://dhaka-tesla-pool-ncam.onrender.com
+
 ## Screenshots
 
 _(Add screenshots or a short GIF here of: the login page, the passenger dashboard with a pooled ride, and the driver dashboard mid-lifecycle.)_
@@ -174,10 +179,13 @@ After running `npm run seed` (password for all: `password123`):
 
 ## Deployment
 
-_(To be added: live frontend and backend URLs once deployed. Free-tier
-hosting only, per the project constraints — see the Deployment section of
-the project brief. If free backend hosting proves unavailable, the
-Docker setup above is the documented, reproducible fallback.)_
+- **Frontend (Vercel):** https://dhaka-tesla-pool-kappa.vercel.app
+- **Backend API (Render):** https://dhaka-tesla-pool-ncam.onrender.com
+
+Both are on free tiers, per the project's cost constraints. Note: Render's
+free tier spins the service down after a period of inactivity, so the
+first request after idle time may take 30-60 seconds to respond while it
+wakes back up.
 
 ## API Overview
 
